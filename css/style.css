@@ -1,0 +1,106 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.logo i {
+    color: violet;
+}
+
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: violet;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.circleb {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid violet;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* <HEADER ENG>  */
+/* <MAIN STARTS> */
+
+
+main .headline {
+    font-size: 50px;
+    font-family: demo, sans-serif;
+    color: violet;
+    text-align: center;
+    margin: 60px;
+}
+
+.item h1{
+    transition: all 2s linear;
+}
+.item h1:hover {
+    transform: scale(.8, .8);
+}
+
+.gallery .image {
+    margin: 70px;
+}
+
+.image {
+    position: relative;
+}
+
+.image::after {
+    content: "Illustrations & Motion Design";
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 50%, rgba(207, 9, 209, 1) 51%, rgba(81, 5, 79, 1) 53%, rgba(38, 3, 35, 1) 54%, rgba(0, 0, 0, 1) 83%);
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s linear;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+}
+.gallery .row{width: 100%;}
+.image:hover::after {
+    width: 100%;
+    height: 100%;
+}
+.hd{font-size: 50px;
+    font-family: demo, sans-serif;
+    color: violet;
+    text-align:start;
+    margin: 60px;}
+    .text{color: white;
+    margin: 50px 30px;}
+    .icon{font-size: 30px;color: violet;
+        a{
+            color: violet
+        }
+    }
+    
+    
